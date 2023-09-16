@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #aaff00;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(219, 196, 196, 0.9);
+    box-shadow: 0 2px 5px rgba(41, 39, 39, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+.heading {
+
+    color: rgb(232, 2, 253);
+    text-transform: uppercase;
+    justify-content: right;
+    letter-spacing: 5px;
+    font-size: 20px;
+  
+  }
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.section {
+    padding: 100px;
+    text-align: center;
+  }
+#home {
+    background-color: #c71f1f;
+  }
+#about {
+    background-color: #dd7616;
+    color: #131313;
+  }
+#services {
+    background-color: #b82755;
+    color: #fff;
+  }
+#portfolio {
+    background-color: #8907b8;
+    color:  #131313;
+  }
+#team {
+    background-color: #f8f40b;
+    color: #fff;
+  }
+#contact {
+    background-color: #38e184;
+    color:  #131313;
+}
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar.scrolled {
+    background-color: #40c62c;
+  }
